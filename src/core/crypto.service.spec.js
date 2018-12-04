@@ -29,10 +29,10 @@ describe('Crypto.Service', function() {
     }
 
     // Initialization of the module before each test case
-    beforeEach(module('waves.core.services'));
+    beforeEach(module('earths.core.services'));
 
     // overriding app.core module constants
-    beforeEach(angular.mock.module('waves.core', function ($provide) {
+    beforeEach(angular.mock.module('earths.core', function ($provide) {
         $provide.constant('constants.network', constants);
     }));
 

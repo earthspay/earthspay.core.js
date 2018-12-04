@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    angular.module('waves.core.services', ['waves.core', 'restangular'])
+    angular.module('earths.core.services', ['earths.core', 'restangular'])
         .config(function () {
             if (!String.prototype.startsWith) {
                 Object.defineProperty(String.prototype, 'startsWith', {

@@ -647,14 +647,14 @@ var converters = function() {
 	}
 }();
 /******************************************************************************
- * Copyright © 2016 The Waves Developers.                                *
+ * Copyright © 2016 The Earths Developers.                                *
  *                                                                            *
  * See the LICENSE files at                                                   *
  * the top-level directory of this distribution for the individual copyright  *
  * holder information and the developer policies on copyright and licensing.  *
  *                                                                            *
  * Unless otherwise agreed in a custom licensing agreement, no part of the    *
- * Waves software, including this file, may be copied, modified, propagated,  *
+ * Earths software, including this file, may be copied, modified, propagated,  *
  * or distributed except according to the terms contained in the LICENSE      *
  * file.                                                                      *
  *                                                                            *
@@ -694,10 +694,10 @@ var Currency = (function () {
         return this.displayName;
     };
 
-    var WAVES = new Currency({
+    var EARTHS = new Currency({
         id: '',
-        displayName: 'Waves',
-        shortName: 'WAVES',
+        displayName: 'Earths',
+        shortName: 'EARTHS',
         precision: 8,
         verified: true
     });
@@ -768,7 +768,7 @@ var Currency = (function () {
 
     var WCT = new Currency({
         id: 'DHgwrRvVyqJsepd32YbBqUeDH4GJ1N984X8QoekjgH8J',
-        displayName: 'Waves Community',
+        displayName: 'Earths Community',
         shortName: 'WCT',
         precision: 2,
         verified: true
@@ -784,7 +784,7 @@ var Currency = (function () {
 
     var WGO = new Currency({
         id: '4eT6R8R2XuTcBuTHiXVQsh2dN2mg3c2Qnp95EWBNHygg',
-        displayName: 'WavesGo',
+        displayName: 'EarthsGo',
         shortName: 'WGO',
         precision: 8,
         verified: true
@@ -848,7 +848,7 @@ var Currency = (function () {
 
     var WPN = new Currency({
         id: 'BkFyeRdrLquxds5FenxyonyfTwMVJJ6o6L7VTaPr5fs3',
-        displayName: 'WavesPool.NET',
+        displayName: 'EarthsPool.NET',
         shortName: 'WPN',
         precision: 8,
         verified: true
@@ -912,7 +912,7 @@ var Currency = (function () {
 
     var BEAR = new Currency({
         id: '9gnc5UCY6RxtSi9FEJkcD57r5NBgdr45DVYtunyDLrgC',
-        displayName: 'BearWaves',
+        displayName: 'BearEarths',
         shortName: 'BEAR',
         precision: 2,
         verified: true
@@ -1000,7 +1000,7 @@ var Currency = (function () {
 
     var WFN = new Currency({
         id: '7yXJqP2zpXTiXuS2o25seUHYxdDnfSPZJ3SEm5DrQ7cx',
-        displayName: 'WavesFullNode',
+        displayName: 'EarthsFullNode',
         shortName: 'WFN',
         precision: 8,
         verified: true
@@ -1048,7 +1048,7 @@ var Currency = (function () {
 
     var WNET = new Currency({
         id: 'AxAmJaro7BJ4KasYiZhw7HkjwgYtt2nekPuF2CN9LMym',
-        displayName: 'Wavesnode.NET',
+        displayName: 'Earthsnode.NET',
         shortName: 'WNET',
         precision: 8,
         verified: true
@@ -1376,7 +1376,7 @@ var Currency = (function () {
 
     var BRW = new Currency({
         id: '3EAHaZPwV5gCoWkoLhjj7rSz9ix7Q4SE6mFczoxA3f9D',
-        displayName: 'BrWaves',
+        displayName: 'BrEarths',
         shortName: 'BRW',
         precision: 3,
         verified: true
@@ -1400,7 +1400,7 @@ var Currency = (function () {
 
     var WNT = new Currency({
         id: 'EqdXBgKgKqdpD3kGT4tS9VgLifZXS3ASihwM3hnprNdU',
-        displayName: 'WavesNotify',
+        displayName: 'EarthsNotify',
         shortName: 'WNT',
         precision: 0,
         verified: true
@@ -1408,7 +1408,7 @@ var Currency = (function () {
 
     var CWV = new Currency({
         id: 'HxxSmVuX4HbHDiDSGg96nx7wgCBhB9UPHh6pxgnKXjv4',
-        displayName: 'Cryptowave',
+        displayName: 'Cryptoearth',
         shortName: 'CWV',
         precision: 3,
         verified: true
@@ -1456,7 +1456,7 @@ var Currency = (function () {
 
     var WDESK = new Currency({
         id: 'CqdGdzvXVp2Gxn7wCZgCboMQu2cWYf6HKAsZFyg3Sq7Q',
-        displayName: 'WavesDesk',
+        displayName: 'EarthsDesk',
         shortName: 'WDESK',
         precision: 8,
         verified: true
@@ -1720,7 +1720,7 @@ var Currency = (function () {
 
     var CROW = new Currency({
         id: '5XWiXK6RbwXsTnY2dSHQWnKVjvLsMAEeE1rFqQz3Ton2',
-        displayName: 'CrowdWave',
+        displayName: 'CrowdEarth',
         shortName: 'CROW',
         precision: 3,
         verified: true
@@ -1768,7 +1768,7 @@ var Currency = (function () {
 
     var FENIX = new Currency({
         id: '3pEoYCzUb7hWvqoMQGPYffTsxxPDkSzwSskypmYFBLFP',
-        displayName: 'FENIX&WAVES',
+        displayName: 'FENIX&EARTHS',
         shortName: 'FENIX',
         precision: 8,
         verified: true
@@ -2128,7 +2128,7 @@ var Currency = (function () {
 
     var Tidals = new Currency({
         id: 'AAUgxEx61UK5Y9MiEYMsdnCqVhGxBcTJEGTMHJeybuBC',
-        displayName: 'Tidal Waves',
+        displayName: 'Tidal Earths',
         shortName: 'Tidals',
         precision: 8,
         verified: true
@@ -2341,7 +2341,7 @@ var Currency = (function () {
     function invalidateCache() {
         currencyCache = {};
 
-        currencyCache[WAVES.id] = WAVES;
+        currencyCache[EARTHS.id] = EARTHS;
         currencyCache[BTC.id] = BTC;
         currencyCache[BCH.id] = BCH;
         currencyCache[ETH.id] = ETH;
@@ -2564,7 +2564,7 @@ var Currency = (function () {
         },
         invalidateCache: invalidateCache,
         isCached: isCached,
-        WAVES: WAVES,
+        EARTHS: EARTHS,
         BTC: BTC,
         BCH: BCH,
         ETH: ETH,
@@ -2919,17 +2919,17 @@ Money.fromCoins = function (amount, currency) {
 };
 
 // set up decimal to format 0.00000001 as is instead of 1e-8
-Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
+Decimal.config({toExpNeg: -(Currency.EARTHS.precision + 1)});
 
 
 (function() {
     'use strict';
 
-    angular.module('waves.core', [
-        'waves.core.services',
-        'waves.core.constants',
-        'waves.core.filter',
-        'waves.core.directives'
+    angular.module('earths.core', [
+        'earths.core.services',
+        'earths.core.constants',
+        'earths.core.filter',
+        'earths.core.directives'
     ]);
 })();
 
@@ -2937,7 +2937,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
     'use strict';
 
     angular
-        .module('waves.core.constants', [])
+        .module('earths.core.constants', [])
         .constant('constants.network', {
             NETWORK_NAME: 'devel', // 'devnet', 'testnet', 'mainnet'
             ADDRESS_VERSION: 1,
@@ -2946,7 +2946,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
         });
 
     angular
-        .module('waves.core.constants')
+        .module('earths.core.constants')
         .constant('constants.address', {
             RAW_ADDRESS_LENGTH : 35,
             ADDRESS_PREFIX: '1W',
@@ -2954,13 +2954,13 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
         });
 
     angular
-        .module('waves.core.constants')
+        .module('earths.core.constants')
         .constant('constants.features', {
             ALIAS_VERSION: 2
         });
 
     angular
-        .module('waves.core.constants')
+        .module('earths.core.constants')
         .constant('constants.ui', {
             MINIMUM_PAYMENT_AMOUNT : 1e-8,
             MINIMUM_TRANSACTION_FEE : 0.001,
@@ -2970,7 +2970,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
         });
 
     angular
-        .module('waves.core.constants')
+        .module('earths.core.constants')
         .constant('constants.transactions', {
             PAYMENT_TRANSACTION_TYPE : 2,
             ASSET_ISSUE_TRANSACTION_TYPE: 3,
@@ -2990,13 +2990,13 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
 
 (function () {
     'use strict';
-    angular.module('waves.core.directives', []);
+    angular.module('earths.core.directives', []);
 })();
 
 (function() {
     'use strict';
 
-    angular.module('waves.core.services', ['waves.core', 'restangular'])
+    angular.module('earths.core.services', ['earths.core', 'restangular'])
         .config(function () {
             if (!String.prototype.startsWith) {
                 Object.defineProperty(String.prototype, 'startsWith', {
@@ -3023,7 +3023,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
  */
 (function () {
     'use strict';
-    angular.module('waves.core.filter', []);
+    angular.module('earths.core.filter', []);
 })();
 
 //https://github.com/bitcoin/bips/blob/master/bip-0039/bip-0039-wordlists.md
@@ -3031,7 +3031,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
     'use strict';
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .constant('wordList', [
             'abandon', 'ability', 'able', 'about', 'above', 'absent', 'absorb', 'abstract', 'absurd', 'abuse', 'access',
             'accident', 'account', 'accuse', 'achieve', 'acid', 'acoustic', 'acquire', 'across', 'act', 'action',
@@ -3211,7 +3211,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
             'very', 'vessel', 'veteran', 'viable', 'vibrant', 'vicious', 'victory', 'video', 'view', 'village',
             'vintage', 'violin', 'virtual', 'virus', 'visa', 'visit', 'visual', 'vital', 'vivid', 'vocal', 'voice',
             'void', 'volcano', 'volume', 'vote', 'voyage', 'wage', 'wagon', 'wait', 'walk', 'wall', 'walnut', 'want',
-            'warfare', 'warm', 'warrior', 'wash', 'wasp', 'waste', 'water', 'wave', 'way', 'wealth', 'weapon', 'wear',
+            'warfare', 'warm', 'warrior', 'wash', 'wasp', 'waste', 'water', 'earth', 'way', 'wealth', 'weapon', 'wear',
             'weasel', 'weather', 'web', 'wedding', 'weekend', 'weird', 'welcome', 'west', 'wet', 'whale', 'what',
             'wheat', 'wheel', 'when', 'where', 'whip', 'whisper', 'wide', 'width', 'wife', 'wild', 'will', 'win',
             'window', 'wine', 'wing', 'wink', 'winner', 'winter', 'wire', 'wisdom', 'wise', 'wish', 'witness', 'wolf',
@@ -3224,7 +3224,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
     'use strict';
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('passPhraseService', ['wordList', '$window', function (wordList, $window) {
             this.generate = function () {
                 var crypto = $window.crypto || $window.msCrypto;
@@ -3259,7 +3259,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
     'use strict';
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('accountService', ['storageService', '$q', function (storageService, $q) {
             var stateCache;
 
@@ -3327,7 +3327,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
     'use strict';
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('addressService', ['constants.address', function (constants) {
             this.cleanupOptionalPrefix = function(displayAddress) {
                 if (displayAddress.length <= 30) {
@@ -3360,7 +3360,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
     'use strict';
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('cryptoService', ['constants.network', '$window', function(constants, window) {
 
             // private version of getNetworkId byte in order to avoid circular dependency
@@ -3534,7 +3534,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
                 return this.base58.encode(sharedKey);
             };
 
-            // function can be used for sharedKey preparation, as recommended in: https://github.com/wavesplatform/curve25519-js
+            // function can be used for sharedKey preparation, as recommended in: https://github.com/earthspay/curve25519-js
             this.prepareKey = function (key) {
                 return prepareKey(key);
             };
@@ -3693,7 +3693,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
     AssetService.$inject = ['signService', 'validateService', 'utilityService', 'cryptoService'];
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('assetService', AssetService);
 })();
 
@@ -3733,7 +3733,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
     AliasRequestService.$inject = ['signService', 'utilityService', 'validateService'];
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('aliasRequestService', AliasRequestService);
 })();
 
@@ -3804,7 +3804,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
     LeasingRequestService.$inject = ['signService', 'utilityService', 'validateService'];
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('leasingRequestService', LeasingRequestService);
 })();
 
@@ -3812,7 +3812,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
     'use strict';
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('apiService', ['Restangular', 'cryptoService', function (rest, cryptoService) {
             var blocksApi = rest.all('blocks');
 
@@ -3947,7 +3947,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
     var BASE58_REGEX = new RegExp('^[123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz]{0,}$');
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('utilityService', ['constants.network', 'cryptoService', function (constants, cryptoService) {
             var self = this;
 
@@ -4022,9 +4022,9 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
     'use strict';
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('chromeStorageService', ['$q', function ($q) {
-            var $key = 'WavesAccounts';
+            var $key = 'EarthsAccounts';
             var self = this;
 
             self.saveState = function (state) {
@@ -4087,12 +4087,12 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
     'use strict';
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('html5StorageService', ['constants.network', '$window', '$q', function(constants, window, $q) {
             if (angular.isUndefined(constants.NETWORK_NAME))
                 throw new Error('Network name hasn\'t been configured');
 
-            var $key = 'Waves' + constants.NETWORK_NAME;
+            var $key = 'Earths' + constants.NETWORK_NAME;
 
             this.saveState = function(state) {
                 var serialized = angular.toJson(state);
@@ -4127,7 +4127,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
     var STORAGE_STRUCTURE_VERSION = 1;
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .provider('storageService', [function () {
             function getStorageVersion () {
                 return STORAGE_STRUCTURE_VERSION;
@@ -4163,7 +4163,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
     'use strict';
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('formattingService', ['$window', '$filter', function (window, $filter) {
 
             var LOCALE_DATE_FORMATS = {
@@ -4415,7 +4415,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
  */
 (function () {
     'use strict';
-    angular.module('waves.core.filter')
+    angular.module('earths.core.filter')
         .filter('formatting', ['formattingService', function (formattingService) {
             return function(timestamp, dateOnly) {
                 if (angular.isUndefined(dateOnly)) {
@@ -4431,14 +4431,14 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
     'use strict';
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('coinomatCurrencyMappingService', [function () {
             function unsupportedCurrency(currency) {
                 throw new Error('Unsupported currency: ' + currency.displayName);
             }
 
             /**
-             * Currency codes for Waves Platform
+             * Currency codes for Earths Platform
              * @param {Currency} currency
              * @returns {string} currency code
              */
@@ -4447,8 +4447,8 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
                     case Currency.BTC.id:
                         return 'WBTC';
 
-                    case Currency.WAVES.id:
-                        return 'WAVES';
+                    case Currency.EARTHS.id:
+                        return 'EARTHS';
 
                     case Currency.ETH.id:
                         return 'WETH';
@@ -4476,8 +4476,8 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
                     case Currency.BTC.id:
                         return 'BTC';
 
-                    case Currency.WAVES.id:
-                        return 'WAVES';
+                    case Currency.EARTHS.id:
+                        return 'EARTHS';
 
                     case Currency.ETH.id:
                         return 'ETH';
@@ -4554,11 +4554,11 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
         }
         /* jscs:enable requireCamelCaseOrUpperCaseIdentifiers */
 
-        this.getDepositDetails = function (sourceCurrency, targetCurrency, wavesRecipientAddress) {
+        this.getDepositDetails = function (sourceCurrency, targetCurrency, earthsRecipientAddress) {
             var gatewayCurrencyCode = mappingService.gatewayCurrencyCode(sourceCurrency);
             var platformCurrencyCode = mappingService.platformCurrencyCode(targetCurrency);
 
-            return loadPaymentDetails(gatewayCurrencyCode, platformCurrencyCode, wavesRecipientAddress);
+            return loadPaymentDetails(gatewayCurrencyCode, platformCurrencyCode, earthsRecipientAddress);
         };
 
         this.getWithdrawDetails = function (currency, recipientAddress) {
@@ -4583,7 +4583,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
     CoinomatService.$inject = ['CoinomatRestangular', 'coinomatCurrencyMappingService'];
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('coinomatService', CoinomatService);
 })();
 
@@ -4622,22 +4622,22 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
     CoinomatFiatService.$inject = ['CoinomatRestangular', 'coinomatCurrencyMappingService'];
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('coinomatFiatService', CoinomatFiatService);
 })();
 
 (function () {
     'use strict';
 
-    var WAVES_ASSET_ID = 'WAVES',
-        WAVES_PRECISION = 8;
+    var EARTHS_ASSET_ID = 'EARTHS',
+        EARTHS_PRECISION = 8;
 
     function denormalizeId(id) {
-        return id === WAVES_ASSET_ID ? '' : id;
+        return id === EARTHS_ASSET_ID ? '' : id;
     }
 
     function normalizeId(id) {
-        return id ? id : WAVES_ASSET_ID;
+        return id ? id : EARTHS_ASSET_ID;
     }
 
     function MatcherApiService(rest, utilityService, cryptoService, validateService) {
@@ -4722,13 +4722,13 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
                         amountAsset: Currency.create({
                             id: denormalizeId(market.amountAsset),
                             displayName: market.amountAssetName,
-                            precision: market.amountAssetInfo ? market.amountAssetInfo.decimals : WAVES_PRECISION
+                            precision: market.amountAssetInfo ? market.amountAssetInfo.decimals : EARTHS_PRECISION
                         }),
                         priceAssetInfo: market.priceAssetInfo,
                         priceAsset: Currency.create({
                             id: denormalizeId(market.priceAsset),
                             displayName: market.priceAssetName,
-                            precision: market.priceAssetInfo ? market.priceAssetInfo.decimals : WAVES_PRECISION
+                            precision: market.priceAssetInfo ? market.priceAssetInfo.decimals : EARTHS_PRECISION
                         }),
                         created: market.created
                     };
@@ -4760,7 +4760,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
     MatcherApiService.$inject = ['MatcherRestangular', 'utilityService', 'cryptoService', 'validateService'];
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('matcherApiService', MatcherApiService);
 })();
 
@@ -4772,7 +4772,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
         DEFAULT_LIMIT = 50;
 
     function serializeId(id) {
-        return id === '' ? 'WAVES' : id;
+        return id === '' ? 'EARTHS' : id;
     }
 
     function DatafeedApiService(rest) {
@@ -4834,7 +4834,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
     DatafeedApiService.$inject = ['DatafeedRestangular'];
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('datafeedApiService', DatafeedApiService);
 })();
 
@@ -4916,7 +4916,7 @@ Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
     MatcherRequestService.$inject = ['signService', 'utilityService', 'validateService'];
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('matcherRequestService', MatcherRequestService);
 })();
 
@@ -5104,7 +5104,7 @@ var OrderPrice = (function () {
     SignService.$inject = ['constants.transactions', 'constants.features', 'cryptoService', 'utilityService'];
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('signService', SignService);
 })();
 
@@ -5112,7 +5112,7 @@ var OrderPrice = (function () {
     'use strict';
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('validateService', function () {
             var self = this;
 
@@ -5143,8 +5143,8 @@ var OrderPrice = (function () {
                     throw new Error('Token decimal places amount hasn\'t been set');
                 }
 
-                if (issue.fee.currency !== Currency.WAVES) {
-                    throw new Error('Transaction fee must be nominated in Waves');
+                if (issue.fee.currency !== Currency.EARTHS) {
+                    throw new Error('Transaction fee must be nominated in Earths');
                 }
             };
 
@@ -5163,8 +5163,8 @@ var OrderPrice = (function () {
             };
 
             self.validateAssetReissue = function (reissue) {
-                if (reissue.totalTokens.currency === Currency.WAVES) {
-                    throw new Error('Reissuing Waves is not allowed.');
+                if (reissue.totalTokens.currency === Currency.EARTHS) {
+                    throw new Error('Reissuing Earths is not allowed.');
                 }
 
                 if (angular.isUndefined(reissue.totalTokens)) {
@@ -5175,8 +5175,8 @@ var OrderPrice = (function () {
                     throw new Error('Transaction fee hasn\'t been set');
                 }
 
-                if (reissue.fee.currency !== Currency.WAVES) {
-                    throw new Error('Transaction fee must be nominated in Waves');
+                if (reissue.fee.currency !== Currency.EARTHS) {
+                    throw new Error('Transaction fee must be nominated in Earths');
                 }
             };
         });

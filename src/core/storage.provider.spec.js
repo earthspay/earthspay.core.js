@@ -7,7 +7,7 @@ describe('Storage.Provider', function() {
     var wnd;
 
     // Initialization of the module before each test case
-    beforeEach(module('waves.core.services'));
+    beforeEach(module('earths.core.services'));
 
     beforeEach(function () {
         module(function (storageServiceProvider) {

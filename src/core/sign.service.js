@@ -137,6 +137,6 @@
     SignService.$inject = ['constants.transactions', 'constants.features', 'cryptoService', 'utilityService'];
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('signService', SignService);
 })();

@@ -11,7 +11,7 @@
             window.navigator.userLanguage = lang;
         });
 
-        beforeEach(module('waves.core.services'));
+        beforeEach(module('earths.core.services'));
 
         beforeEach(inject(function (_formattingService_, _$window_) {
             formattingService = _formattingService_;

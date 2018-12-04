@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('addressService', ['constants.address', function (constants) {
             this.cleanupOptionalPrefix = function(displayAddress) {
                 if (displayAddress.length <= 30) {

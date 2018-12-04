@@ -4,7 +4,7 @@
     var STORAGE_STRUCTURE_VERSION = 1;
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .provider('storageService', [function () {
             function getStorageVersion () {
                 return STORAGE_STRUCTURE_VERSION;

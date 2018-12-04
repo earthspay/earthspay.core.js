@@ -34,7 +34,7 @@ describe('LocalStorage.Html5.Service', function() {
     }));
 
     // Initialization of the module before each test case
-    beforeEach(module('waves.core.services'));
+    beforeEach(module('earths.core.services'));
 
     // Injection of dependencies
     beforeEach(inject(function($injector) {
@@ -50,7 +50,7 @@ describe('LocalStorage.Html5.Service', function() {
         //when
         storageService.saveState({key: 'value', $$test: 'value'});
         //then
-        expect(mockWindow.localStorage.setItem).toHaveBeenCalledWith('Wavesdevel', JSON.stringify({key: 'value'}));
+        expect(mockWindow.localStorage.setItem).toHaveBeenCalledWith('Earthsdevel', JSON.stringify({key: 'value'}));
     });
 
     it('should load from localStore', inject(function ($rootScope) {
@@ -65,7 +65,7 @@ describe('LocalStorage.Html5.Service', function() {
         $rootScope.$digest();
         //then
         expect(response).toEqual(mockState);
-        expect(mockWindow.localStorage.getItem).toHaveBeenCalledWith('Wavesdevel');
+        expect(mockWindow.localStorage.getItem).toHaveBeenCalledWith('Earthsdevel');
     }));
 
     it('should load empty from localStore', inject(function ($rootScope) {
@@ -86,6 +86,6 @@ describe('LocalStorage.Html5.Service', function() {
         //when
         storageService.clear();
         //then
-        expect(mockWindow.localStorage.removeItem).toHaveBeenCalledWith('Wavesdevel');
+        expect(mockWindow.localStorage.removeItem).toHaveBeenCalledWith('Earthsdevel');
     });
 });

@@ -26,7 +26,7 @@ module.exports = function (grunt) {
                         'src/vendor/blake2b.js',
                         'src/vendor/converters.js',
 
-                        'src/core/waves.money.js',
+                        'src/core/earths.money.js',
                         'src/core/core.module.js',
                         'src/core/core.constants.js',
                         'src/core/core.directives.module.js',
@@ -61,7 +61,7 @@ module.exports = function (grunt) {
                 }
             },
             editor: 'gedit --new-window -s ',
-            target: 'wavesplatform-core'
+            target: 'earthspay-core'
         },
         jshint: {
             all: ['<%= meta.sources.all %>', '!src/vendor/*.js']

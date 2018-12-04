@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('accountService', ['storageService', '$q', function (storageService, $q) {
             var stateCache;
 

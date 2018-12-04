@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('formattingService', ['$window', '$filter', function (window, $filter) {
 
             var LOCALE_DATE_FORMATS = {

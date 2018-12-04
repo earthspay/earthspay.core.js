@@ -5,7 +5,7 @@ describe('Address.Service', function() {
         alias = 'test alias';
 
     // Initialization of the module before each test case
-    beforeEach(module('waves.core.services'));
+    beforeEach(module('earths.core.services'));
 
     // Injection of dependencies
     beforeEach(inject(function($injector) {

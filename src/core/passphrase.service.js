@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('passPhraseService', ['wordList', '$window', function (wordList, $window) {
             this.generate = function () {
                 var crypto = $window.crypto || $window.msCrypto;

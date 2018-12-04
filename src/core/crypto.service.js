@@ -6,7 +6,7 @@
     'use strict';
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('cryptoService', ['constants.network', '$window', function(constants, window) {
 
             // private version of getNetworkId byte in order to avoid circular dependency
@@ -180,7 +180,7 @@
                 return this.base58.encode(sharedKey);
             };
 
-            // function can be used for sharedKey preparation, as recommended in: https://github.com/wavesplatform/curve25519-js
+            // function can be used for sharedKey preparation, as recommended in: https://github.com/earthspay/curve25519-js
             this.prepareKey = function (key) {
                 return prepareKey(key);
             };

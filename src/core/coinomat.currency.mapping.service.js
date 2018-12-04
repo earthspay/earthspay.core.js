@@ -2,14 +2,14 @@
     'use strict';
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('coinomatCurrencyMappingService', [function () {
             function unsupportedCurrency(currency) {
                 throw new Error('Unsupported currency: ' + currency.displayName);
             }
 
             /**
-             * Currency codes for Waves Platform
+             * Currency codes for Earths Platform
              * @param {Currency} currency
              * @returns {string} currency code
              */
@@ -18,8 +18,8 @@
                     case Currency.BTC.id:
                         return 'WBTC';
 
-                    case Currency.WAVES.id:
-                        return 'WAVES';
+                    case Currency.EARTHS.id:
+                        return 'EARTHS';
 
                     case Currency.ETH.id:
                         return 'WETH';
@@ -47,8 +47,8 @@
                     case Currency.BTC.id:
                         return 'BTC';
 
-                    case Currency.WAVES.id:
-                        return 'WAVES';
+                    case Currency.EARTHS.id:
+                        return 'EARTHS';
 
                     case Currency.ETH.id:
                         return 'ETH';

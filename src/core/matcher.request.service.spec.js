@@ -12,7 +12,7 @@ describe('Matcher.Request.Service', function() {
     var matcherKey = 'Ei5BT6ZvKmB5VQLSZGo8mNkSXsTwGG4zUWjN7yu7iZo5';
 
     // Initialization of the module before each test case
-    beforeEach(module('waves.core.services'));
+    beforeEach(module('earths.core.services'));
 
     // Injection of dependencies
     beforeEach(inject(function($injector) {
@@ -27,12 +27,12 @@ describe('Matcher.Request.Service', function() {
     }));
 
     it('should successfully sign create order request', function () {
-        var amount = Money.fromTokens(2, Currency.WAVES);
+        var amount = Money.fromTokens(2, Currency.EARTHS);
         var price = OrderPrice.fromTokens(0.5, {
-            amountAsset: Currency.WAVES,
+            amountAsset: Currency.EARTHS,
             priceAsset: asset
         });
-        var fee = Money.fromTokens(0.01, Currency.WAVES);
+        var fee = Money.fromTokens(0.01, Currency.EARTHS);
         var order = {
             orderType: 'sell',
             price: price,

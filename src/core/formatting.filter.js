@@ -3,7 +3,7 @@
  */
 (function () {
     'use strict';
-    angular.module('waves.core.filter')
+    angular.module('earths.core.filter')
         .filter('formatting', ['formattingService', function (formattingService) {
             return function(timestamp, dateOnly) {
                 if (angular.isUndefined(dateOnly)) {

@@ -3,5 +3,5 @@
  */
 (function () {
     'use strict';
-    angular.module('waves.core.filter', []);
+    angular.module('earths.core.filter', []);
 })();

@@ -4,7 +4,7 @@
     var BASE58_REGEX = new RegExp('^[123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz]{0,}$');
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('utilityService', ['constants.network', 'cryptoService', function (constants, cryptoService) {
             var self = this;
 

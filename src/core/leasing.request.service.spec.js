@@ -8,7 +8,7 @@ describe('Leasing.Request.Service', function() {
     var alias = 'test alias';
 
     // Initialization of the module before each test case
-    beforeEach(module('waves.core.services'));
+    beforeEach(module('earths.core.services'));
 
     // Injection of dependencies
     beforeEach(inject(function($injector) {
@@ -23,8 +23,8 @@ describe('Leasing.Request.Service', function() {
     }));
 
     it('should successfully sign start leasing request', function () {
-        var amount = Money.fromTokens(2, Currency.WAVES);
-        var fee = Money.fromTokens(0.01, Currency.WAVES);
+        var amount = Money.fromTokens(2, Currency.EARTHS);
+        var fee = Money.fromTokens(0.01, Currency.EARTHS);
         var startLeasing = {
             recipient: recipient,
             amount: amount,
@@ -43,8 +43,8 @@ describe('Leasing.Request.Service', function() {
     });
 
     it('should successfully sign start leasing request with an alias', function () {
-        var amount = Money.fromTokens(2, Currency.WAVES);
-        var fee = Money.fromTokens(0.01, Currency.WAVES);
+        var amount = Money.fromTokens(2, Currency.EARTHS);
+        var fee = Money.fromTokens(0.01, Currency.EARTHS);
         var startLeasing = {
             recipient: alias,
             amount: amount,
@@ -64,7 +64,7 @@ describe('Leasing.Request.Service', function() {
 
     it('should successfully sign cancel leasing request', function () {
         var startLeasingTransactionId = '4X85MhqxukwaPqJC4sSSeN3ptSYHbEca7KgiYtUa2ECX';
-        var fee = Money.fromTokens(0.1, Currency.WAVES);
+        var fee = Money.fromTokens(0.1, Currency.EARTHS);
 
         var cancelLeasing = {
             startLeasingTransactionId: startLeasingTransactionId,

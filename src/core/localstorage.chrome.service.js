@@ -2,9 +2,9 @@
     'use strict';
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('chromeStorageService', ['$q', function ($q) {
-            var $key = 'WavesAccounts';
+            var $key = 'EarthsAccounts';
             var self = this;
 
             self.saveState = function (state) {

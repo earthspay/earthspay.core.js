@@ -1,14 +1,14 @@
 {
-  "name": "wavesplatform-core-js",
+  "name": "earthspay-core-js",
   "version": "0.3.0",
-  "description": "Shared javascript components for access to waves nodes",
+  "description": "Shared javascript components for access to earths nodes",
   "license": "Apache-2.0",
   "engines": {
     "node": ">= 0.10.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wavesplatform/wavesplatform.core.js"
+    "url": "https://github.com/earthspay/earthspay.core.js"
   },
   "devDependencies": {
     "grunt": "~1.0.0",
@@ -24,7 +24,7 @@
     "grunt-bump": "0.8.0",
     "grunt-shell": "1.3.0",
     "grunt-conventional-changelog": "6.1.0",
-    "waves-grunt-github-releaser": "^0.2.0",
+    "earths-grunt-github-releaser": "^0.2.0",
     "grunt-karma": "*",
     "karma": "^0.13.0",
     "karma-jasmine": "1.0.2",

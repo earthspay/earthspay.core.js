@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('waves.core.constants', [])
+        .module('earths.core.constants', [])
         .constant('constants.network', {
             NETWORK_NAME: 'devel', // 'devnet', 'testnet', 'mainnet'
             ADDRESS_VERSION: 1,
@@ -11,7 +11,7 @@
         });
 
     angular
-        .module('waves.core.constants')
+        .module('earths.core.constants')
         .constant('constants.address', {
             RAW_ADDRESS_LENGTH : 35,
             ADDRESS_PREFIX: '1W',
@@ -19,13 +19,13 @@
         });
 
     angular
-        .module('waves.core.constants')
+        .module('earths.core.constants')
         .constant('constants.features', {
             ALIAS_VERSION: 2
         });
 
     angular
-        .module('waves.core.constants')
+        .module('earths.core.constants')
         .constant('constants.ui', {
             MINIMUM_PAYMENT_AMOUNT : 1e-8,
             MINIMUM_TRANSACTION_FEE : 0.001,
@@ -35,7 +35,7 @@
         });
 
     angular
-        .module('waves.core.constants')
+        .module('earths.core.constants')
         .constant('constants.transactions', {
             PAYMENT_TRANSACTION_TYPE : 2,
             ASSET_ISSUE_TRANSACTION_TYPE: 3,

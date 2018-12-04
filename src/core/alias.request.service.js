@@ -34,6 +34,6 @@
     AliasRequestService.$inject = ['signService', 'utilityService', 'validateService'];
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('aliasRequestService', AliasRequestService);
 })();

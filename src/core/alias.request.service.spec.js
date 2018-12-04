@@ -6,7 +6,7 @@ describe('Alias.Request.Service', function() {
     };
 
     // Initialization of the module before each test case
-    beforeEach(module('waves.core.services'));
+    beforeEach(module('earths.core.services'));
 
     // Injection of dependencies
     beforeEach(inject(function($injector) {
@@ -21,7 +21,7 @@ describe('Alias.Request.Service', function() {
     }));
 
     it('should successfully sign create alias request', function () {
-        var fee = Money.fromTokens(0.01, Currency.WAVES);
+        var fee = Money.fromTokens(0.01, Currency.EARTHS);
         var nick = 'Sasha Ivanov';
         var alias = {
             alias: nick,

@@ -1,5 +1,5 @@
 {
-  "name": "wavesplatform-core-js",
+  "name": "earthspay-core-js",
   "version": "0.3.0",
   "dependencies": {
     "angular": "~1.6.0",
@@ -12,9 +12,9 @@
     "cryptojslib": "^3.1.2",
     "decimal.js": "https://github.com/MikeMcl/decimal.js/archive/v5.0.8.zip",
     "Base58": "https://github.com/45678/Base58.git",
-    "curve25519-js": "https://github.com/wavesplatform/curve25519-js.git",
+    "curve25519-js": "https://github.com/earthspay/curve25519-js.git",
     "js-sha3": "^0.5.2"
   },
-  "main": "distr/wavesplatform-core.js",
+  "main": "distr/earthspay-core.js",
   "analytics": false
 }

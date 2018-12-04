@@ -1,15 +1,15 @@
 (function () {
     'use strict';
 
-    var WAVES_ASSET_ID = 'WAVES',
-        WAVES_PRECISION = 8;
+    var EARTHS_ASSET_ID = 'EARTHS',
+        EARTHS_PRECISION = 8;
 
     function denormalizeId(id) {
-        return id === WAVES_ASSET_ID ? '' : id;
+        return id === EARTHS_ASSET_ID ? '' : id;
     }
 
     function normalizeId(id) {
-        return id ? id : WAVES_ASSET_ID;
+        return id ? id : EARTHS_ASSET_ID;
     }
 
     function MatcherApiService(rest, utilityService, cryptoService, validateService) {
@@ -94,13 +94,13 @@
                         amountAsset: Currency.create({
                             id: denormalizeId(market.amountAsset),
                             displayName: market.amountAssetName,
-                            precision: market.amountAssetInfo ? market.amountAssetInfo.decimals : WAVES_PRECISION
+                            precision: market.amountAssetInfo ? market.amountAssetInfo.decimals : EARTHS_PRECISION
                         }),
                         priceAssetInfo: market.priceAssetInfo,
                         priceAsset: Currency.create({
                             id: denormalizeId(market.priceAsset),
                             displayName: market.priceAssetName,
-                            precision: market.priceAssetInfo ? market.priceAssetInfo.decimals : WAVES_PRECISION
+                            precision: market.priceAssetInfo ? market.priceAssetInfo.decimals : EARTHS_PRECISION
                         }),
                         created: market.created
                     };
@@ -132,6 +132,6 @@
     MatcherApiService.$inject = ['MatcherRestangular', 'utilityService', 'cryptoService', 'validateService'];
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('matcherApiService', MatcherApiService);
 })();

@@ -55,11 +55,11 @@
         }
         /* jscs:enable requireCamelCaseOrUpperCaseIdentifiers */
 
-        this.getDepositDetails = function (sourceCurrency, targetCurrency, wavesRecipientAddress) {
+        this.getDepositDetails = function (sourceCurrency, targetCurrency, earthsRecipientAddress) {
             var gatewayCurrencyCode = mappingService.gatewayCurrencyCode(sourceCurrency);
             var platformCurrencyCode = mappingService.platformCurrencyCode(targetCurrency);
 
-            return loadPaymentDetails(gatewayCurrencyCode, platformCurrencyCode, wavesRecipientAddress);
+            return loadPaymentDetails(gatewayCurrencyCode, platformCurrencyCode, earthsRecipientAddress);
         };
 
         this.getWithdrawDetails = function (currency, recipientAddress) {
@@ -84,6 +84,6 @@
     CoinomatService.$inject = ['CoinomatRestangular', 'coinomatCurrencyMappingService'];
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('coinomatService', CoinomatService);
 })();

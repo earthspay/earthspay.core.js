@@ -1,12 +1,12 @@
 /******************************************************************************
- * Copyright © 2016 The Waves Developers.                                *
+ * Copyright © 2016 The Earths Developers.                                *
  *                                                                            *
  * See the LICENSE files at                                                   *
  * the top-level directory of this distribution for the individual copyright  *
  * holder information and the developer policies on copyright and licensing.  *
  *                                                                            *
  * Unless otherwise agreed in a custom licensing agreement, no part of the    *
- * Waves software, including this file, may be copied, modified, propagated,  *
+ * Earths software, including this file, may be copied, modified, propagated,  *
  * or distributed except according to the terms contained in the LICENSE      *
  * file.                                                                      *
  *                                                                            *
@@ -46,10 +46,10 @@ var Currency = (function () {
         return this.displayName;
     };
 
-    var WAVES = new Currency({
+    var EARTHS = new Currency({
         id: '',
-        displayName: 'Waves',
-        shortName: 'WAVES',
+        displayName: 'Earths',
+        shortName: 'EARTHS',
         precision: 8,
         verified: true
     });
@@ -120,7 +120,7 @@ var Currency = (function () {
 
     var WCT = new Currency({
         id: 'DHgwrRvVyqJsepd32YbBqUeDH4GJ1N984X8QoekjgH8J',
-        displayName: 'Waves Community',
+        displayName: 'Earths Community',
         shortName: 'WCT',
         precision: 2,
         verified: true
@@ -136,7 +136,7 @@ var Currency = (function () {
 
     var WGO = new Currency({
         id: '4eT6R8R2XuTcBuTHiXVQsh2dN2mg3c2Qnp95EWBNHygg',
-        displayName: 'WavesGo',
+        displayName: 'EarthsGo',
         shortName: 'WGO',
         precision: 8,
         verified: true
@@ -200,7 +200,7 @@ var Currency = (function () {
 
     var WPN = new Currency({
         id: 'BkFyeRdrLquxds5FenxyonyfTwMVJJ6o6L7VTaPr5fs3',
-        displayName: 'WavesPool.NET',
+        displayName: 'EarthsPool.NET',
         shortName: 'WPN',
         precision: 8,
         verified: true
@@ -264,7 +264,7 @@ var Currency = (function () {
 
     var BEAR = new Currency({
         id: '9gnc5UCY6RxtSi9FEJkcD57r5NBgdr45DVYtunyDLrgC',
-        displayName: 'BearWaves',
+        displayName: 'BearEarths',
         shortName: 'BEAR',
         precision: 2,
         verified: true
@@ -352,7 +352,7 @@ var Currency = (function () {
 
     var WFN = new Currency({
         id: '7yXJqP2zpXTiXuS2o25seUHYxdDnfSPZJ3SEm5DrQ7cx',
-        displayName: 'WavesFullNode',
+        displayName: 'EarthsFullNode',
         shortName: 'WFN',
         precision: 8,
         verified: true
@@ -400,7 +400,7 @@ var Currency = (function () {
 
     var WNET = new Currency({
         id: 'AxAmJaro7BJ4KasYiZhw7HkjwgYtt2nekPuF2CN9LMym',
-        displayName: 'Wavesnode.NET',
+        displayName: 'Earthsnode.NET',
         shortName: 'WNET',
         precision: 8,
         verified: true
@@ -728,7 +728,7 @@ var Currency = (function () {
 
     var BRW = new Currency({
         id: '3EAHaZPwV5gCoWkoLhjj7rSz9ix7Q4SE6mFczoxA3f9D',
-        displayName: 'BrWaves',
+        displayName: 'BrEarths',
         shortName: 'BRW',
         precision: 3,
         verified: true
@@ -752,7 +752,7 @@ var Currency = (function () {
 
     var WNT = new Currency({
         id: 'EqdXBgKgKqdpD3kGT4tS9VgLifZXS3ASihwM3hnprNdU',
-        displayName: 'WavesNotify',
+        displayName: 'EarthsNotify',
         shortName: 'WNT',
         precision: 0,
         verified: true
@@ -760,7 +760,7 @@ var Currency = (function () {
 
     var CWV = new Currency({
         id: 'HxxSmVuX4HbHDiDSGg96nx7wgCBhB9UPHh6pxgnKXjv4',
-        displayName: 'Cryptowave',
+        displayName: 'Cryptoearth',
         shortName: 'CWV',
         precision: 3,
         verified: true
@@ -808,7 +808,7 @@ var Currency = (function () {
 
     var WDESK = new Currency({
         id: 'CqdGdzvXVp2Gxn7wCZgCboMQu2cWYf6HKAsZFyg3Sq7Q',
-        displayName: 'WavesDesk',
+        displayName: 'EarthsDesk',
         shortName: 'WDESK',
         precision: 8,
         verified: true
@@ -1072,7 +1072,7 @@ var Currency = (function () {
 
     var CROW = new Currency({
         id: '5XWiXK6RbwXsTnY2dSHQWnKVjvLsMAEeE1rFqQz3Ton2',
-        displayName: 'CrowdWave',
+        displayName: 'CrowdEarth',
         shortName: 'CROW',
         precision: 3,
         verified: true
@@ -1120,7 +1120,7 @@ var Currency = (function () {
 
     var FENIX = new Currency({
         id: '3pEoYCzUb7hWvqoMQGPYffTsxxPDkSzwSskypmYFBLFP',
-        displayName: 'FENIX&WAVES',
+        displayName: 'FENIX&EARTHS',
         shortName: 'FENIX',
         precision: 8,
         verified: true
@@ -1480,7 +1480,7 @@ var Currency = (function () {
 
     var Tidals = new Currency({
         id: 'AAUgxEx61UK5Y9MiEYMsdnCqVhGxBcTJEGTMHJeybuBC',
-        displayName: 'Tidal Waves',
+        displayName: 'Tidal Earths',
         shortName: 'Tidals',
         precision: 8,
         verified: true
@@ -1693,7 +1693,7 @@ var Currency = (function () {
     function invalidateCache() {
         currencyCache = {};
 
-        currencyCache[WAVES.id] = WAVES;
+        currencyCache[EARTHS.id] = EARTHS;
         currencyCache[BTC.id] = BTC;
         currencyCache[BCH.id] = BCH;
         currencyCache[ETH.id] = ETH;
@@ -1916,7 +1916,7 @@ var Currency = (function () {
         },
         invalidateCache: invalidateCache,
         isCached: isCached,
-        WAVES: WAVES,
+        EARTHS: EARTHS,
         BTC: BTC,
         BCH: BCH,
         ETH: ETH,
@@ -2271,5 +2271,5 @@ Money.fromCoins = function (amount, currency) {
 };
 
 // set up decimal to format 0.00000001 as is instead of 1e-8
-Decimal.config({toExpNeg: -(Currency.WAVES.precision + 1)});
+Decimal.config({toExpNeg: -(Currency.EARTHS.precision + 1)});
 

@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('waves.core.services')
+        .module('earths.core.services')
         .service('apiService', ['Restangular', 'cryptoService', function (rest, cryptoService) {
             var blocksApi = rest.all('blocks');
 
